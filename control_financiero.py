@@ -1,4 +1,5 @@
-#El programa se va a encargar de hacer un control financiero sobre la situación económica del usuario
+#El programa se va a encargar de hacer un control financiero sobre la situación económica del usuario, ahora se lo vamos a mostrar en pantalla.
+print("El programa se va a encargar de hacer un control finaciero sobre su situación económica.")
 #Pedimos al usuario los ingresos mensuales
 ingresos_mensuales = float(input("Introduce tus ingresos mensuales: "))
 #Preguntamos al usuario si tiene que pagar alguna hipoteca o prestamo
@@ -63,3 +64,5 @@ def luz (luz_porcentaje,dinero_calculado):
 luz_calculado = luz(luz_porcentaje,dinero_calculado)
 #Mostramos por pantalla el dinero.
 print(f"Dispone de {luz_calculado}€ para gastar este mes en luz.")
+#Agradecemos el usuario utilizar el porgrama.
+print("Muchas gracias por haber usadao el programa, esperemos que haya sido útil.")
